@@ -1,8 +1,6 @@
-import json
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
-from typing import Optional
 
 import ijson
 import orjson
@@ -236,9 +234,21 @@ app = FastAPI(
 )
 
 # Enable CORS for frontend access
+default_allow_origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://maddensalary.netlify.app",
+]
+
+extra_allow_origins = [
+    origin.strip()
+    for origin in os.getenv("CORS_ORIGINS", "").split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=default_allow_origins + [origin for origin in extra_allow_origins if origin not in default_allow_origins],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
