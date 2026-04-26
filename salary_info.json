@@ -1,0 +1,290 @@
+{
+  "775553024": {
+    "teamName": "49ers",
+    "abbrName": "SF",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 286150000,
+      "capAvailable": 18050000
+    }
+  },
+  "775553025": {
+    "teamName": "Bears",
+    "abbrName": "CHI",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 301620000,
+      "capAvailable": 2580000
+    }
+  },
+  "775553026": {
+    "teamName": "Bengals",
+    "abbrName": "CIN",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 303260000,
+      "capAvailable": 940000
+    }
+  },
+  "775553027": {
+    "teamName": "Bills",
+    "abbrName": "BUF",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 302750000,
+      "capAvailable": 1450000
+    }
+  },
+  "775553028": {
+    "teamName": "Broncos",
+    "abbrName": "DEN",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 293530000,
+      "capAvailable": 10670000
+    }
+  },
+  "775553029": {
+    "teamName": "Huskies",
+    "abbrName": "TOR",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 216430000,
+      "capAvailable": 87770000
+    }
+  },
+  "775553030": {
+    "teamName": "Buccaneers",
+    "abbrName": "TB",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 298900000,
+      "capAvailable": 5300000
+    }
+  },
+  "775553031": {
+    "teamName": "Cardinals",
+    "abbrName": "AZ",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 246010000,
+      "capAvailable": 58190000
+    }
+  },
+  "775553034": {
+    "teamName": "Chargers",
+    "abbrName": "LAC",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 300930000,
+      "capAvailable": 3270000
+    }
+  },
+  "775553035": {
+    "teamName": "Chiefs",
+    "abbrName": "KC",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 199620000,
+      "capAvailable": 104580000
+    }
+  },
+  "775553036": {
+    "teamName": "Colts",
+    "abbrName": "IND",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 298690000,
+      "capAvailable": 5510000
+    }
+  },
+  "775553037": {
+    "teamName": "Commanders",
+    "abbrName": "WAS",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 187210000,
+      "capAvailable": 116990000
+    }
+  },
+  "775553038": {
+    "teamName": "Cowboys",
+    "abbrName": "DAL",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 283110000,
+      "capAvailable": 21090000
+    }
+  },
+  "775553039": {
+    "teamName": "Dolphins",
+    "abbrName": "MIA",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 296060000,
+      "capAvailable": 8140000
+    }
+  },
+  "775553040": {
+    "teamName": "Eagles",
+    "abbrName": "PHI",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 294820000,
+      "capAvailable": 9380000
+    }
+  },
+  "775553041": {
+    "teamName": "Falcons",
+    "abbrName": "ATL",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 293320000,
+      "capAvailable": 10880000
+    }
+  },
+  "775553043": {
+    "teamName": "Giants",
+    "abbrName": "NYG",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 300890000,
+      "capAvailable": 3310000
+    }
+  },
+  "775553045": {
+    "teamName": "Jaguars",
+    "abbrName": "JAX",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 294150000,
+      "capAvailable": 10050000
+    }
+  },
+  "775553046": {
+    "teamName": "Jets",
+    "abbrName": "NYJ",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 199570000,
+      "capAvailable": 104630000
+    }
+  },
+  "775553047": {
+    "teamName": "Lions",
+    "abbrName": "DET",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 257030000,
+      "capAvailable": 47170000
+    }
+  },
+  "775553049": {
+    "teamName": "Packers",
+    "abbrName": "GB",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 301180000,
+      "capAvailable": 3020000
+    }
+  },
+  "775553050": {
+    "teamName": "Panthers",
+    "abbrName": "CAR",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 251940000,
+      "capAvailable": 52260000
+    }
+  },
+  "775553051": {
+    "teamName": "Patriots",
+    "abbrName": "NE",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 269190000,
+      "capAvailable": 35010000
+    }
+  },
+  "775553052": {
+    "teamName": "Raiders",
+    "abbrName": "LV",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 267750000,
+      "capAvailable": 36450000
+    }
+  },
+  "775553053": {
+    "teamName": "Rams",
+    "abbrName": "LAR",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 256130000,
+      "capAvailable": 48070000
+    }
+  },
+  "775553054": {
+    "teamName": "Ravens",
+    "abbrName": "BAL",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 275560000,
+      "capAvailable": 28640000
+    }
+  },
+  "775553055": {
+    "teamName": "Saints",
+    "abbrName": "NO",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 298000000,
+      "capAvailable": 6200000
+    }
+  },
+  "775553056": {
+    "teamName": "Seahawks",
+    "abbrName": "SEA",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 298780000,
+      "capAvailable": 5420000
+    }
+  },
+  "775553057": {
+    "teamName": "Steelers",
+    "abbrName": "PIT",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 300820000,
+      "capAvailable": 3380000
+    }
+  },
+  "775553058": {
+    "teamName": "Texans",
+    "abbrName": "HOU",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 302680000,
+      "capAvailable": 1520000
+    }
+  },
+  "775553059": {
+    "teamName": "Titans",
+    "abbrName": "TEN",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 272140000,
+      "capAvailable": 32060000
+    }
+  },
+  "775553060": {
+    "teamName": "Vikings",
+    "abbrName": "MIN",
+    "salary": {
+      "capRoom": 304200000,
+      "capSpent": 303500000,
+      "capAvailable": 700000
+    }
+  }
+}
