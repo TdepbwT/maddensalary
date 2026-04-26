@@ -159,6 +159,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Keep frontend source utilities in git (overrides broad Python `lib/` ignore).
+!frontend/src/lib/
+!frontend/src/lib/**
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
