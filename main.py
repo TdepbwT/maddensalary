@@ -1,9 +1,9 @@
 import os
+import json
 from contextlib import asynccontextmanager
 from pathlib import Path
 
 import ijson
-import orjson
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -62,9 +62,9 @@ def save_salary_info(data: dict) -> None:
         data: Dictionary of salary information
     """
     try:
-        with open(SALARY_INFO_FILE, "wb") as f:
-            # orjson.dumps returns bytes, perfect for file writing
-            f.write(orjson.dumps(data, option=orjson.OPT_INDENT_2))
+        with open(SALARY_INFO_FILE, "w", encoding="utf-8") as f:
+            # Use stdlib json to avoid native-extension runtime compatibility issues.
+            json.dump(data, f, indent=2)
         
         file_size = os.path.getsize(SALARY_INFO_FILE) / 1024  # KB
         print(f"✓ Saved salary_info.json ({file_size:.1f} KB)")
@@ -89,8 +89,8 @@ def load_salary_info() -> dict:
         return data
     
     try:
-        with open(SALARY_INFO_FILE, "rb") as f:
-            return orjson.loads(f.read())
+        with open(SALARY_INFO_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
     except Exception as e:
         print(f"✗ Error loading salary_info.json: {e}")
         raise
@@ -163,9 +163,9 @@ def save_player_salary_info(data: dict) -> None:
         data: Dictionary of player salary information grouped by team
     """
     try:
-        with open(PLAYER_SALARY_INFO_FILE, "wb") as f:
-            # orjson.dumps returns bytes, perfect for file writing
-            f.write(orjson.dumps(data, option=orjson.OPT_INDENT_2))
+        with open(PLAYER_SALARY_INFO_FILE, "w", encoding="utf-8") as f:
+            # Use stdlib json to avoid native-extension runtime compatibility issues.
+            json.dump(data, f, indent=2)
         
         file_size = os.path.getsize(PLAYER_SALARY_INFO_FILE) / 1024  # KB
         print(f"✓ Saved player_salary_info.json ({file_size:.1f} KB)")
@@ -190,8 +190,8 @@ def load_player_salary_info() -> dict:
         return data
     
     try:
-        with open(PLAYER_SALARY_INFO_FILE, "rb") as f:
-            return orjson.loads(f.read())
+        with open(PLAYER_SALARY_INFO_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
     except Exception as e:
         print(f"✗ Error loading player_salary_info.json: {e}")
         raise
